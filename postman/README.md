@@ -1,9 +1,9 @@
 # D:ONE API collections
 
-The Postman collection for the device API, covering firmware 0.8.1, and 0.8.2 — the two are built from the same application, so their APIs are identical.
+The Postman collection for the device API, covering firmware 0.5.5.
 
-This is the **0.8.1** collection, because it sits in the 0.8.1 branch of the module.
-The collections for 0.4.3 and 0.5.5 are attached to their own releases. Read the
+This is the **0.5.5** collection, because it sits in the 0.5.5 branch of the module.
+The collections for 0.4.3 and 0.8.1 are attached to their own releases. Read the
 version off the unit — Settings → Device — and use the one that matches:
 handing somebody the newest collection is how an integrator spends a day on an
 endpoint their unit does not have.

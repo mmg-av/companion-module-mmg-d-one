@@ -3,8 +3,8 @@
 NDI to HDMI display. This module drives one unit: source selection, the quad
 multiview, media and playlist playback, output mode and volume.
 
-**This build is for units running firmware 0.8.1 or later**, 0.8.2 included.
-Older units want an older module version: 0.5.5, or 0.4.3 for the earliest.
+**This build is for units running firmware 0.5.5 or later.** If your unit is
+on 0.4.3, install module version 0.4.3; on 0.8.1 or 0.8.2, install 0.8.1.
 
 ### Setting it up
 

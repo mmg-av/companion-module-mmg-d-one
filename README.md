@@ -24,12 +24,12 @@ use — but it cannot install it for you.
 ## Requirements
 
 - Companion 5.0 or later (built and tested against 5.0.6)
-- A D:ONE on the same network, running firmware **0.8.1 or later** (0.8.2 included)
+- A D:ONE on the same network, running firmware **0.5.5 or later**
 - An **operator** API key, made on the unit
 
-**This is the 0.8.1 build**, the newest. 0.8.1 and 0.8.2 are built from the same
-application and share an API. Older units want an older build — see the table
-above.
+**This is the 0.5.5 build.** 0.5.5 is where the unit gained `/api/tokens`, so a
+service key is available and this build requires one. Units on 0.4.3 have no such
+concept and want the 0.4.3 build instead.
 
 ## Setting it up
 

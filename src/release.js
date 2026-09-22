@@ -16,7 +16,7 @@ export const RELEASE = {
 	// The oldest firmware this build supports. Newer units are fine; older ones
 	// want an earlier module version, which the module says so at connect
 	// rather than leaving somebody to work it out from a failure.
-	minFirmware: '0.8.1',
+	minFirmware: '0.5.5',
 
 	// Whether an API key is required.
 	//
