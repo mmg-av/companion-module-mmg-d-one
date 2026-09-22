@@ -3,22 +3,21 @@
 NDI to HDMI display. This module drives one unit: source selection, the quad
 multiview, media and playlist playback, output mode and volume.
 
-**This build is for units running firmware 0.8.1 or later**, 0.8.2 included.
-Older units want an older module version: 0.5.5, or 0.4.3 for the earliest.
+**This build is for units running firmware 0.4.3** — the earliest ones. If
+your unit is on 0.5.5 or later, install the module version matching it.
 
 ### Setting it up
 
 **Address** — the unit's IP or hostname, e.g. `192.168.1.23` or
 `mmg-d1-xxxxxxxx.local`.
 
-**API key** — make one on the unit itself: **Settings → API keys**, with
-**operator** scope.
+**API key or PIN** — the unit's operator PIN, if one is set on it. Leave it
+empty otherwise.
 
-Operator is the right level. It reaches everything this module does and cannot
-reconfigure the network, install firmware or reset the device, so a control
-surface left in a rack is not also a way to take the unit off the network. A key
-lasts until you revoke it, which is what an always-on surface needs — the PIN
-and password sign-ins hand out short-lived sessions that will expire mid-show.
+A PIN sign-in gives a session that expires, and the module signs in again when
+it does. Units on later firmware use a service key instead, which lasts until
+you revoke it — that is what an always-on surface wants, and why the later
+builds of this module require one.
 
 ### How it keeps up
 

@@ -24,12 +24,12 @@ use — but it cannot install it for you.
 ## Requirements
 
 - Companion 5.0 or later (built and tested against 5.0.6)
-- A D:ONE on the same network, running firmware **0.8.1 or later** (0.8.2 included)
-- An **operator** API key, made on the unit
+- A D:ONE running firmware **0.4.3** — the earliest units
+- The unit's operator PIN, if one is set on it
 
-**This is the 0.8.1 build**, the newest. 0.8.1 and 0.8.2 are built from the same
-application and share an API. Older units want an older build — see the table
-above.
+**This is the 0.4.3 build.** Enter the address, and the operator PIN if the unit
+has one. If your unit runs 0.5.5 or later, install the module version matching
+it — those use a service key, which is what an always-on surface wants.
 
 ## Setting it up
 

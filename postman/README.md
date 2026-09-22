@@ -1,9 +1,9 @@
 # D:ONE API collections
 
-The Postman collection for the device API, covering firmware 0.8.1, and 0.8.2 — the two are built from the same application, so their APIs are identical.
+The Postman collection for the device API, covering firmware 0.4.3 — the earliest units.
 
-This is the **0.8.1** collection, because it sits in the 0.8.1 branch of the module.
-The collections for 0.4.3 and 0.5.5 are attached to their own releases. Read the
+This is the **0.4.3** collection, because it sits in the 0.4.3 branch of the module.
+The collections for 0.5.5 and 0.8.1 are attached to their own releases. Read the
 version off the unit — Settings → Device — and use the one that matches:
 handing somebody the newest collection is how an integrator spends a day on an
 endpoint their unit does not have.
@@ -14,10 +14,8 @@ endpoint their unit does not have.
 slash — `http://192.168.1.23`, or `http://MMG-D1-XXXXXXXX.local` using the
 serial printed on the box. Both work; Settings → Device on the unit shows both.
 
-There is no sign-in here. Paste an **operator** service key into `apiKey` — make
-one on the unit, Settings → API keys. It is shown once, when you create it, so
-copy it then. The sign-ins return a session that expires, which is no use to
-something that has to still be working next month.
+If an operator PIN is set on the unit, sign in with the full device API
+collection first — this subset carries no sign-in of its own.
 
 ## Two things the API will not do for you
 

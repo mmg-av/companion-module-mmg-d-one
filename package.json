@@ -1,6 +1,6 @@
 {
   "name": "companion-module-mmg-d-one",
-  "version": "0.8.1",
+  "version": "0.4.3",
   "main": "src/main.js",
   "license": "MIT",
   "scripts": {

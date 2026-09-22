@@ -16,7 +16,7 @@ export const RELEASE = {
 	// The oldest firmware this build supports. Newer units are fine; older ones
 	// want an earlier module version, which the module says so at connect
 	// rather than leaving somebody to work it out from a failure.
-	minFirmware: '0.8.1',
+	minFirmware: '0.4.3',
 
 	// Whether an API key is required.
 	//
@@ -26,7 +26,7 @@ export const RELEASE = {
 	// PIN buys a 12-hour session held in memory that a reboot ends. A control
 	// surface cannot live on that, which is why the earliest build is the only
 	// one where this is false.
-	keyRequired: true,
+	keyRequired: false,
 }
 
 /** Is `v` a version we can compare at all, rather than a bare commit? */
