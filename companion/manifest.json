@@ -1,0 +1,36 @@
+{
+	"$schema": "../node_modules/@companion-module/base/assets/manifest.schema.json",
+	"type": "connection",
+	"id": "mmg-d-one",
+	"name": "mmg-d-one",
+	"shortname": "D:ONE",
+	"description": "MMG D:ONE — NDI to HDMI display. For units running firmware 0.8.1 or later. Source selection, quad multiview, media and playlist playback.",
+	"version": "0.8.1",
+	"license": "MIT",
+	"repository": "git+https://github.com/mmg-av/companion-module-mmg-d-one.git",
+	"bugs": "https://github.com/mmg-av/companion-module-mmg-d-one/issues",
+	"maintainers": [
+		{
+			"name": "MMG",
+			"email": "support@mmgaxis.io"
+		}
+	],
+	"runtime": {
+		"type": "node22",
+		"api": "nodejs-ipc",
+		"apiVersion": "2.0.4",
+		"entrypoint": "../src/main.js"
+	},
+	"legacyIds": [
+		"mmg-done"
+	],
+	"manufacturer": "MMG",
+	"products": [
+		"D:ONE"
+	],
+	"keywords": [
+		"NDI",
+		"Display",
+		"Video"
+	]
+}

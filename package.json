@@ -1,0 +1,19 @@
+{
+  "name": "companion-module-mmg-d-one",
+  "version": "0.8.1",
+  "main": "src/main.js",
+  "license": "MIT",
+  "scripts": {
+    "package": "companion-module-build"
+  },
+  "dependencies": {
+    "@companion-module/base": "~2.0.4"
+  },
+  "devDependencies": {
+    "@companion-module/tools": "^3.1.0"
+  },
+  "engines": {
+    "node": "^22.20"
+  },
+  "type": "module"
+}
